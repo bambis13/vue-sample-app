@@ -33,6 +33,8 @@
 <script>
     export default {
         name: 'home',
-
+        data: () => ({
+            items: [{title: "hoge"}]
+        })
     }
 </script>
