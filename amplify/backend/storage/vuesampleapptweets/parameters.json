@@ -1,0 +1,7 @@
+{
+    "tableName": "vuesampleapptweets",
+    "partitionKeyName": "title",
+    "partitionKeyType": "S",
+    "sortKeyName": "text",
+    "sortKeyType": "S"
+}

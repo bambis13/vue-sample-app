@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "vue-sample-app-dev-20191115001907-authRole",
+            "UnauthRoleArn": "arn:aws:iam::239481316969:role/vue-sample-app-dev-20191115001907-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::239481316969:role/vue-sample-app-dev-20191115001907-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "vue-sample-app-dev-20191115001907-deployment",
+            "UnauthRoleName": "vue-sample-app-dev-20191115001907-unauthRole",
+            "StackName": "vue-sample-app-dev-20191115001907",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:239481316969:stack/vue-sample-app-dev-20191115001907/1a4fc870-06f2-11ea-90d9-06fa24220ee8"
+        },
+        "categories": {
+            "auth": {
+                "vuesampleapp98bef65c": {}
+            }
+        }
+    }
+}

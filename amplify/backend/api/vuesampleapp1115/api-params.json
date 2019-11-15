@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/tweet",
+            "lambdaFunction": "vuesampleappda20b6ec",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "vuesampleapp1115",
+    "apiName": "vuesampleapp1115",
+    "functionArns": [
+        {
+            "lambdaFunction": "vuesampleappda20b6ec"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "vue-sample-app-dev-20191115001907-authRole",
+        "unAuthRoleName": "vue-sample-app-dev-20191115001907-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "vuesampleappda20b6ec",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
